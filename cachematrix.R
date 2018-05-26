@@ -28,7 +28,7 @@ cacheSolve <- function(X, ...) {
     if(!is.null(I)) {
         message("using cached data")
         return(I)
-        # Calculate the inverse and store it if there is no cached value
+    # Calculate the inverse and store it if there is no cached value
     } else {
         data <- X$get()
         # Solve calculates the inverse of the matrix
